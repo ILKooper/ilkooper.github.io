@@ -5,8 +5,8 @@ var makeShapeVisible = function(){
   var top = Math.random() * 500;
   var left = Math.random() * 500;
   var width = Math.random() * 100 + 50;
-  shape.style.top = top +"px";
-  shape.style.left = left +"px";
+  shape.style.top = top + "px";
+  shape.style.left = left + "px";
   shape.style.width = width + "px";
 
   if(Math.random() < 0.5) {
