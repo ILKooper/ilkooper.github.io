@@ -2,8 +2,8 @@ var startTime = new Date().getTime();
 
 var makeShapeVisible = function(){
   var shape = document.getElementById("shape");
-  var top = Math.random() * 100;
-  var left = Math.random() * 100;
+  var top = Math.random() * 500;
+  var left = Math.random() * 500;
   var width = Math.random() * 100 + 50;
   shape.style.top = top +"px";
   shape.style.left = left +"px";
